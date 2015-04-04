@@ -48,7 +48,7 @@ Slack.show_rtm.ok
 # => true
     
 # You can now easily send a message to a user knowing their username
-Slack.send_message_to_channel('juangesino',"Hey!")
+Slack.send_message_to_user('juangesino',"Hey!")
    
 # Or to a channel 
 Slack.send_message_to_channel('general',"Hello everyone!")
