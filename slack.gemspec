@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'slack/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "Slack"
+  spec.name          = "slack"
   spec.version       = Slack::VERSION
   spec.authors       = ["Juan Gesino"]
   spec.email         = ["jgesino@educatea.com.ar"]
